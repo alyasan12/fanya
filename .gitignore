@@ -1,0 +1,28 @@
+# 密鑰與本地憑據（DPAPI 綁定本機帳戶，絕不進版控）
+.fanya-key.dpapi
+login.html
+
+# 本地備份與派生物
+index-修改前備份-*.html
+*.bak
+*.tmp
+
+# 取證與 QA 截圖（另行歸檔）
+qa-*.png
+cmp-*.png
+gh-live-*.png
+qa-art/
+qa-browser/
+qa-library/
+_qa/
+__pycache__/
+*.pyc
+
+# 第三方食譜原始資料（MIT 授權，僅本機留存）
+recipe-source/
+
+# 系統檔
+Thumbs.db
+.DS_Store
+node_modules/
+.env
